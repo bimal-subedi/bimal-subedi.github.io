@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding: 0;
+    zoom: reset;
+}
+header{
+    padding:2%;
+}
+header ul li{
+    padding: 1%;
+}
+#title{
+    background-image: url("../images/img-hero-image/img-hero-image.png");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 15%;
+}
+h1,p{
+    color:  #ffffff;
+}
+h1{
+    font-size: 3.5rem;
+    font-weight: 600;  
+}
+h2{
+    color: #9b9b9b;
+    padding-bottom: 2%;
+}
+p{
+    padding:0 13%;
+}
+.active> a, li > a:hover, #features h3{
+    color: #199957 !important;
+}
+.container div{
+    text-align: center;
+    padding: 20%;
+}
+#features p{
+    color:#4a4a4a;
+}
+#features{
+    text-align: center;
+    padding: 4.5%;
+}
+#resources{
+    padding: 4.5%;
+}
+#list1{
+    padding-left: 5%;
+}
+#resources hr{
+    width: 60%;
+    margin-left: 0;
+}
+#resources ul li a{
+    color:
+    #27ad6c;
+}
+#list1 ul li a span{
+    color:#9b9b9b;
+    font-size: 13px;
+}
+#photos div,#photos h2{
+    text-align: center;
+}
+#services h2{
+    text-align: center;
+    color: #ffffff;
+}
+#services h3{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+#photos .row img{
+    position: static;
+}
+#services .row{
+    text-align: left;
+    padding:2% 10%;
+}
+#services h3{
+    text-align: center;
+}
+#services{
+    background-color: #423633;
+    text-align: center;
+    padding-top: 5%;  
+}
+#services img{
+    padding-right: 2%;
+}
+footer{
+    background-color:#333333;
+    padding: 2%;  
+}
+footer p{
+    display: inline-block;
+    position: absolute;
+    margin: 0;
+    padding:0;
+}
+footer ul{
+    padding: 0;
+    margin: 0;
+}
+footer ul li a{
+    color: white;
+    font-size: 14px;
+}
+#ninja{
+    padding: 4%;
+}
+.seperator {
+    width: 10%;
+    color:#88c542;
+    font-size: 3px;
+    display: inline-block;
+    margin-top: 5px;
+  }
+  @media (max-width:767px) {
+      #services h3 img{
+          width: 12%;
+      }
+      footer ul li a, footer p{
+            font-size: 0.8em;
+      }  
+  }
