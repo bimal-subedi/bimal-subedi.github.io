@@ -34,14 +34,14 @@ h1,p{
 }
 h1{
     font-size: 3.5rem;
-    font-weight: 900;  
+    font-weight: 600;  
 }
 h2{
     color: #9b9b9b;
     padding-bottom: 2%;
 }
 p{
-    padding:0 13%;
+    padding:0 15%;
 }
 .active> a, li > a:hover, #features h3{
     color: #199957 !important;
@@ -75,7 +75,7 @@ p{
     color:#9b9b9b;
     font-size: 13px;
 }
-#photos h2{
+#photos div,#photos h2{
     text-align: center;
 }
 #services h2{
@@ -87,9 +87,9 @@ p{
     font-size: 1.2rem;
     color: #ffffff;
 }
-/* #photos .row img{
+#photos .row img{
     position: static;
-} */
+}
 #services .row{
     text-align: left;
     padding:2% 10%;
@@ -129,6 +129,7 @@ footer ul li a{
 .seperator {
     width: 10%;
     color:#88c542;
+
     font-size: 3px;
     display: inline-block;
     margin-top: 5px;
