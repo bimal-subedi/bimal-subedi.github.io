@@ -75,9 +75,9 @@ p{
     font-size: 1.2rem;
     color: #ffffff;
 }
-#photos .row img{
+/* #photos .row img{
     position: static;
-}
+} */
 #services .row{
     text-align: left;
     padding:2% 10%;
