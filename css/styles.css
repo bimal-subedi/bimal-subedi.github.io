@@ -30,6 +30,7 @@ h2{
 }
 p{
     padding:0 13%;
+    font-weight: 400; 
 }
 .active> a, li > a:hover, #features h3{
     color: #199957 !important;
