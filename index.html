@@ -3,186 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Frontend Ninja</title>
-
-    <!-- CSS Stylesheets -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css">
-
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-xVVam1KS4+Qt2OrFa+VdRUoXygyKIuNWUUUBZYv+n27STsJ7oDOHJgfF0bNKLMJF" crossorigin="anonymous">
-    
+    <title>My Portfolio</title>
+    <style>
+        .main {
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <section id="title">
-            
-                <!-- <img src="./images/img-hero-image/img-hero-image.png" alt=""> -->
-            <header>
-                    <nav class="navbar navbar-expand-lg navbar-dark">
-                      <a class="navbar-brand" href="#" ><img src="./images/logo-frontend-ninja.svg" alt=""></a>
-                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                          <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                      <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Work</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"><i class="fal fa-search"></i></a></li>
-                      </ul>
-                    </div>
-                    </nav>
-                </header>
-
-    <!-- Title -->
-    <div class="container">
-    <div>
-            <h1>Are you a frontend ninja?</h1>
-              <p>Frontend ninjas are the superheroes who bring life into designs. We’re looking for frontend ninjas with knack of amazing attention to detail. Are you one? </p>
-              <button class="btn btn-success btn-lg" type="button">APPLY NOW <i class="fal fa-chevron-circle-right"></i></button>
-            </div>
-          </div>
-
-    <!-- Features -->
-    </section>
-    <section id="features">
-        <h2>What you should have</h2>
-        <div class="row">
-            <div class="col-md-4">
-                <img src="./images/assets/img-requirements-3.jpg" alt="image">
-                <h3>Attention to detail</h3>
-                <p>We look for attention to detail in our candidates. As a frontend intern, you should have a superpowers of looking into details of a design.</p>
-            </div>
-            <div class="col-md-4">
-                    <img src="./images/assets/img-requirements-2.jpg" alt="image">
-                    <h3>Frontend tech knowledge</h3>
-                    <p>You must be equipped with a passion to learn and explore new technologies. You are not afraid to implement a new framework or language.</p>
-                </div>
-                <div class="col-md-4">
-                        <img src="./images/assets/img-requirements-1.jpg" alt="image">
-                        <h3>Love for technology</h3>
-                        <p>We eat, sleep and breathe tehcnology. You should have love for technology. </p>
-                    </div>
-        </div>
-    </section>
-
-    <!-- Resources -->
-    <section id="resources">
-        <div class="row">
-        <div class="col-md-6">
-            <h2>Resources</h2>
-            <ul class="list-unstyled">
-                <li><a href="#"><img src="./images/assets_Landing Page_2020-03-06/globe.svg" alt="">  Designer News</a></li>
-                <hr>
-                <li><a href="#"><img src="./images/assets_Landing Page_2020-03-06/globe.svg" alt="">  Smashing Magazine</a></li>
-                <hr>
-                <li><a href="#"><img src="./images/assets_Landing Page_2020-03-06/globe.svg" alt="">  Frontend Front</a></li>
-                <hr>
-                <li><a href="#">View all Resources</a></li>
-            </ul>
-        </div>
-        <div  id="list1" class="col-md-6 border-left border-success">
-            <h2>Latest from frontend</h2>
-            <ul class="list-unstyled">
-                <li><a href="#">JavaScript Performance Optimization Tips: An Overview<br/><span>13 hours ago</span></a></li>
-                <hr>
-                <li><a href="#">Designing a dashboard for Concourse<br/><span>20 November, 2017</span></a></li>
-                <hr>
-                <li><a href="#">JSRobot – Learn to code in JavaScript by playing a game<br/><span>17 November, 2017</span></a></li>
-                <hr>
-                <li><a href="#">View all Updates</a></li>
-            </ul>
-        </div>
+    <div class="main">
+        <img id="image" src="" width="100"/>
+        <h2 id="name">Bimal Subedi</h2>
+        <p id="bio"></p>
+        <h5 id="followersInfo"></h5>
+        <p>Check me on <a id="githubLink">Github</a></p>
+        <a class="twitter-timeline" data-width="300" data-height="400" href="https://twitter.com/BimalSubedi16?ref_src=twsrc%5Etfw">Tweets by BimalSubedi16</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <br>
+        <br>
+        <h3>My Projects:</h3>
+        <p id="myprojects"></p>
     </div>
-    </section>
-
-    <!-- Photos -->
-    <section id="photos">
-        <div>
-            <hr class="seperator left"><img src="./images/assets_Landing Page_2020-03-06/ic-separator-frontend-ninja.svg" alt=""><hr class="seperator right">
-        </div>
-    <h2>Some random food photos<br/>Just because ¯\_(ツ)_/¯</h2>
-    <div class="row">
-        <div class="col-lg-4 col-md-6">
-            <img src="./images/assets/img-food-photos-6.jpg " alt="">
-        </div>
-        <div class="col-lg-4 col-md-6">
-            <img src="./images/assets/img-food-photos-2.jpg" alt="">
-        </div>
-        <div class="col-lg-4 col-md-6">
-            <img src="./images/assets/img-food-photos-4.jpg" alt="">
-        </div>
-        <div class="col-lg-4 col-md-6">
-            <img src="./images/assets/img-food-photos-5.jpg" alt="">
-        </div>
-        <div class="col-lg-4 col-md-6">
-            <img src="./images/assets/img-food-photos-1.jpg" alt="">
-        </div>
-        <div class="col-lg-4 col-md-6">
-            <img src="./images/assets/img-food-photos-3.jpg" alt="">
-        </div>
-    </div>
-    </section>
-
-    <!-- Services -->
-    <section id="services">
-        <h2>What we provide</h2>
-        <div class="container-fluid px-0 mx-0">
-        <div class="row">
-            <div class="col-lg-4 col-sm-6">
-                    <h3><img src="./images/assets_Landing Page_2020-03-06/ic-tailored.svg" class="img-responsive" alt="">Tailored objectives</h3>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                    <h3><img src="./images/assets_Landing Page_2020-03-06/ic-senior-team.svg" class="img-responsive" alt="">Support from senior team</h3>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                    <h3><img src="./images/assets_Landing Page_2020-03-06/ic-learning.svg" class="img-responsive" alt="">learning environment</h3>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                    <h3><img src="./images/assets_Landing Page_2020-03-06/ic-lunch.svg" alt="">Delicious lunch</h3>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                    <h3><img src="./images/assets_Landing Page_2020-03-06/ic-travel.svg" alt="">Travel expenses/ stipend</h3>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                    <h3><img src="./images/assets_Landing Page_2020-03-06/ic-workweek.svg" alt="">Five working week</h3>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                    <h3><img src="./images/assets_Landing Page_2020-03-06/ic-time.svg" alt="">  Flexible time possibility</h3>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                    <h3><img src="./images/assets_Landing Page_2020-03-06/ic-full-time.svg" alt="">Full-timer possibility</h3>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                    <h3><img src="./images/assets_Landing Page_2020-03-06/ic-retreats.svg" alt="">Socials, retreats, team dinners</h3>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-            </div>
-        </div>
-        <button class="btn btn-success btn-lg" type="button">APPLY NOW <i class="fal fa-chevron-circle-right"></i></button>
-        <div id="ninja"><img src="./images/assets_Landing Page_2020-03-06/logo-frontend-ninja_3.svg" alt=""></div>
-    </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="page-footer">
-        <p class="text-md-left">© Copyright 2020</p>
-        <div class="text-right text-md-right">
-        <ul class="list-unstyled list-inline">
-            <li class="list-inline-item"><a href="#">HOME</a></li>
-            <li class="list-inline-item"><a href="#">ABOUT</a></li>
-            <li class="list-inline-item"><a href="#">CONTACT</a></li>
-        </ul>
-    </div>
-    </footer>
+    
 </body>
+    <script>
+        fetch('https://api.github.com/users/subedibimal').then(response => response.json()).then(function(data){
+            console.log(data)
+            let followersCount = data['followers']
+            let followersInfo = `I have been followed by ${followersCount} awesome people on github.`
+
+            document.getElementById('image').src = data['avatar_url']
+            document.getElementById('name').textContent= data['name']
+            document.getElementById('followersInfo').textContent = followersInfo
+            document.getElementById('githubLink').href = data['html_url']
+        })
+        fetch('https://api.github.com/users/subedibimal/repos')
+        .then(response => response.json())
+        .then((datas) => {
+            datas.forEach(data => {
+                console.log(data)
+                document.getElementById('myprojects').innerHTML += 
+                                    ` <li">
+                                            <h4>${data['name']}</h4>
+                                        </li>`
+                
+            })
+        })
+
+  
+    </script>
+</script>
 </html>
